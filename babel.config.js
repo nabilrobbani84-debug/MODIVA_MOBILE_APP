@@ -1,7 +1,5 @@
-// babel.config.js
 module.exports = {
-  // Ganti dari 'module:@react-native/babel-preset' ke 'babel-preset-expo'
-  presets: ['babel-preset-expo'],
+  presets: ['module:@react-native/babel-preset'],
   plugins: [
     [
       'module:react-native-dotenv',
